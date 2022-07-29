@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		57F22AF72893C28B003F6536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22AF62893C28B003F6536 /* AppDelegate.swift */; };
 		57F22AF92893C28B003F6536 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22AF82893C28B003F6536 /* SceneDelegate.swift */; };
-		57F22AFB2893C28B003F6536 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22AFA2893C28B003F6536 /* ViewController.swift */; };
 		57F22AFE2893C28B003F6536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F22AFC2893C28B003F6536 /* Main.storyboard */; };
 		57F22B012893C28B003F6536 /* ContactsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57F22AFF2893C28B003F6536 /* ContactsApp.xcdatamodeld */; };
 		57F22B032893C28C003F6536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F22B022893C28C003F6536 /* Assets.xcassets */; };
@@ -17,6 +16,20 @@
 		57F22B112893C28C003F6536 /* ContactsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B102893C28C003F6536 /* ContactsAppTests.swift */; };
 		57F22B1B2893C28C003F6536 /* ContactsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B1A2893C28C003F6536 /* ContactsAppUITests.swift */; };
 		57F22B1D2893C28C003F6536 /* ContactsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B1C2893C28C003F6536 /* ContactsAppUITestsLaunchTests.swift */; };
+		57F22B322893D7A3003F6536 /* CoordinatorBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B312893D7A3003F6536 /* CoordinatorBinding.swift */; };
+		57F22B342893D882003F6536 /* FlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B332893D882003F6536 /* FlowCoordinator.swift */; };
+		57F22B362893EF7B003F6536 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B352893EF7B003F6536 /* NavigationCoordinator.swift */; };
+		57F22B392893F124003F6536 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B382893F124003F6536 /* MainCoordinator.swift */; };
+		57F22B3C2893F146003F6536 /* StartUpCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B3B2893F146003F6536 /* StartUpCoordinator.swift */; };
+		57F22B3F2893F164003F6536 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B3E2893F164003F6536 /* SplashViewController.swift */; };
+		57F22B412893F16D003F6536 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B402893F16D003F6536 /* SplashViewModel.swift */; };
+		57F22B442893F1AB003F6536 /* ContactsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B432893F1AB003F6536 /* ContactsCoordinator.swift */; };
+		57F22B462893F1B8003F6536 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B452893F1B8003F6536 /* ContactsViewController.swift */; };
+		57F22B492893F1CD003F6536 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B482893F1CD003F6536 /* ContactsViewModel.swift */; };
+		57F22B4C2893F6B0003F6536 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B4B2893F6B0003F6536 /* ContactDetailsViewController.swift */; };
+		57F22B4E2893F6BE003F6536 /* ContactDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B4D2893F6BE003F6536 /* ContactDetailsViewModel.swift */; };
+		57F22B512893FF9E003F6536 /* ContactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B502893FF9E003F6536 /* ContactService.swift */; };
+		57F22B542893FFDE003F6536 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F22B532893FFDE003F6536 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +53,6 @@
 		57F22AF32893C28B003F6536 /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F22AF62893C28B003F6536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57F22AF82893C28B003F6536 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		57F22AFA2893C28B003F6536 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57F22AFD2893C28B003F6536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57F22B002893C28B003F6536 /* ContactsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactsApp.xcdatamodel; sourceTree = "<group>"; };
 		57F22B022893C28C003F6536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +63,20 @@
 		57F22B162893C28C003F6536 /* ContactsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F22B1A2893C28C003F6536 /* ContactsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsAppUITests.swift; sourceTree = "<group>"; };
 		57F22B1C2893C28C003F6536 /* ContactsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57F22B312893D7A3003F6536 /* CoordinatorBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorBinding.swift; sourceTree = "<group>"; };
+		57F22B332893D882003F6536 /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
+		57F22B352893EF7B003F6536 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
+		57F22B382893F124003F6536 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		57F22B3B2893F146003F6536 /* StartUpCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpCoordinator.swift; sourceTree = "<group>"; };
+		57F22B3E2893F164003F6536 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		57F22B402893F16D003F6536 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		57F22B432893F1AB003F6536 /* ContactsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCoordinator.swift; sourceTree = "<group>"; };
+		57F22B452893F1B8003F6536 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		57F22B482893F1CD003F6536 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		57F22B4B2893F6B0003F6536 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		57F22B4D2893F6BE003F6536 /* ContactDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewModel.swift; sourceTree = "<group>"; };
+		57F22B502893FF9E003F6536 /* ContactService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactService.swift; sourceTree = "<group>"; };
+		57F22B532893FFDE003F6536 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +127,11 @@
 		57F22AF52893C28B003F6536 /* ContactsApp */ = {
 			isa = PBXGroup;
 			children = (
+				57F22B522893FFCF003F6536 /* Models */,
+				57F22B4F2893FF46003F6536 /* Services */,
+				57F22B372893F111003F6536 /* Scenes */,
 				57F22AF62893C28B003F6536 /* AppDelegate.swift */,
 				57F22AF82893C28B003F6536 /* SceneDelegate.swift */,
-				57F22AFA2893C28B003F6536 /* ViewController.swift */,
 				57F22AFC2893C28B003F6536 /* Main.storyboard */,
 				57F22B022893C28C003F6536 /* Assets.xcassets */,
 				57F22B042893C28C003F6536 /* LaunchScreen.storyboard */,
@@ -128,6 +156,81 @@
 				57F22B1C2893C28C003F6536 /* ContactsAppUITestsLaunchTests.swift */,
 			);
 			path = ContactsAppUITests;
+			sourceTree = "<group>";
+		};
+		57F22B302893D794003F6536 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				57F22B312893D7A3003F6536 /* CoordinatorBinding.swift */,
+				57F22B332893D882003F6536 /* FlowCoordinator.swift */,
+				57F22B352893EF7B003F6536 /* NavigationCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		57F22B372893F111003F6536 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				57F22B4A2893F69B003F6536 /* ContactDetails */,
+				57F22B422893F19A003F6536 /* Contacts */,
+				57F22B3A2893F130003F6536 /* StartUp */,
+				57F22B302893D794003F6536 /* Coordinator */,
+				57F22B382893F124003F6536 /* MainCoordinator.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		57F22B3A2893F130003F6536 /* StartUp */ = {
+			isa = PBXGroup;
+			children = (
+				57F22B3D2893F152003F6536 /* Splash */,
+				57F22B3B2893F146003F6536 /* StartUpCoordinator.swift */,
+			);
+			path = StartUp;
+			sourceTree = "<group>";
+		};
+		57F22B3D2893F152003F6536 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				57F22B3E2893F164003F6536 /* SplashViewController.swift */,
+				57F22B402893F16D003F6536 /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		57F22B422893F19A003F6536 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				57F22B432893F1AB003F6536 /* ContactsCoordinator.swift */,
+				57F22B452893F1B8003F6536 /* ContactsViewController.swift */,
+				57F22B482893F1CD003F6536 /* ContactsViewModel.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		57F22B4A2893F69B003F6536 /* ContactDetails */ = {
+			isa = PBXGroup;
+			children = (
+				57F22B4B2893F6B0003F6536 /* ContactDetailsViewController.swift */,
+				57F22B4D2893F6BE003F6536 /* ContactDetailsViewModel.swift */,
+			);
+			path = ContactDetails;
+			sourceTree = "<group>";
+		};
+		57F22B4F2893FF46003F6536 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				57F22B502893FF9E003F6536 /* ContactService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		57F22B522893FFCF003F6536 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57F22B532893FFDE003F6536 /* Contact.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +364,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F22B542893FFDE003F6536 /* Contact.swift in Sources */,
 				57F22B012893C28B003F6536 /* ContactsApp.xcdatamodeld in Sources */,
-				57F22AFB2893C28B003F6536 /* ViewController.swift in Sources */,
+				57F22B462893F1B8003F6536 /* ContactsViewController.swift in Sources */,
+				57F22B392893F124003F6536 /* MainCoordinator.swift in Sources */,
+				57F22B492893F1CD003F6536 /* ContactsViewModel.swift in Sources */,
+				57F22B512893FF9E003F6536 /* ContactService.swift in Sources */,
+				57F22B3C2893F146003F6536 /* StartUpCoordinator.swift in Sources */,
+				57F22B4C2893F6B0003F6536 /* ContactDetailsViewController.swift in Sources */,
+				57F22B4E2893F6BE003F6536 /* ContactDetailsViewModel.swift in Sources */,
+				57F22B412893F16D003F6536 /* SplashViewModel.swift in Sources */,
+				57F22B342893D882003F6536 /* FlowCoordinator.swift in Sources */,
 				57F22AF72893C28B003F6536 /* AppDelegate.swift in Sources */,
+				57F22B442893F1AB003F6536 /* ContactsCoordinator.swift in Sources */,
 				57F22AF92893C28B003F6536 /* SceneDelegate.swift in Sources */,
+				57F22B322893D7A3003F6536 /* CoordinatorBinding.swift in Sources */,
+				57F22B362893EF7B003F6536 /* NavigationCoordinator.swift in Sources */,
+				57F22B3F2893F164003F6536 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
